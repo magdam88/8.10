@@ -4,7 +4,7 @@ console.log(withButtonClass.length);
 
 
 for (i = 0; i < withButtonClass.length; i++) {
-    var displayText = withButtonClass[0].innerHTML;
+    var displayText = withButtonClass[i].innerHTML;
     console.log(displayText);
     alert(displayText);
 };
